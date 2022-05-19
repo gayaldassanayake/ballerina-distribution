@@ -1,7 +1,0 @@
-bal run xml_subtyping.bal
-Hello World
-true
-true
-false
-<p>Hello</p><q>World</q>
-<p>Hello</p><r>World</r>

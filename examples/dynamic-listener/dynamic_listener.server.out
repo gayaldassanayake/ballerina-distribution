@@ -1,4 +1,0 @@
-# Navigate to the directory that contains the
-# 'dynamic_listener.bal' file, and run the 'bal run' command below.
-
-bal run dynamic_listener.bal
