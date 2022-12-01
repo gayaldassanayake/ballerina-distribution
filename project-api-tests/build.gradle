@@ -59,7 +59,7 @@ task centralTests {
         systemProperty "short.version", "$version".split("-")[0]
         systemProperty "server.zip", "$buildDir/../../ballerina/build/distributions/ballerina-${System.getProperty("short.version")}.zip"
         systemProperty "code.name", "${codeName}"
-
+        systemProperty "ballerinaBotWorkflow", System.getenv('ballerinaBotWorkflow')
         useTestNG() {
             suites 'src/test/resources/testng.xml'
         }
